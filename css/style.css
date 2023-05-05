@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Roboto:400,500,700,900');
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+    color: #666;
+    background-color: #ddd;
+	font-size: 16px;
+    line-height: 1.6em;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+
+h1 {
+	font-size: 38px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 32px;
+}
+h4 {
+	font-size: 28px;
+}
+h5 {
+	font-size: 24px;
+}
+h6 {
+	font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+	color: #444;
+	line-height: 1em;
+}
+
+h1.h-xlight,h2.h-xlight,h3.h-xlight ,h4.h-xlight ,h5.h-xlight ,h6.h-xlight  {
+	font-weight: 100;
+}
+
+h1.h-light,h2.h-light,h3.h-light ,h4.h-light ,h5.h-light ,h6.h-light  {
+	font-weight: 300;
+}
+
+h1.h-normal,h2.h-normal,h3.h-normal ,h4.h-normal ,h5.h-normal ,h6.h-normal  {
+	font-weight: 400;
+}
+
+h1.h-medium,h2.h-medium,h3.h-medium ,h4.h-medium ,h5.h-medium ,h6.h-medium  {
+	font-weight: 500;
+}
+
+h1.h-bold,h2.h-bold,h3.h-bold ,h4.h-bold ,h5.h-bold ,h6.h-bold  {
+	font-weight: 700;
+}
+
+h1.h-ultra,h2.h-ultra,h3.h-ultra ,h4.h-ultra ,h5.h-ultra ,h6.h-ultra  {
+	font-weight: 900;
+}
+
+
+h1.font-light,h2.font-light,h3.font-light,h4.font-light,h5.font-light,h6.font-light {
+	color: #fff;
+}
+
+
+
+p {
+    margin: 0 0 20px;
+
+}
+
+p.medium {
+	font-weight: 500;
+}
+
+p.bold {
+	font-weight: 700;
+}
+
+p.ultra {
+	font-weight: 900;
+}
+
+.highlight-light {
+	background-color: rgba(255,255,255,.5);
+	padding: 20px;
+	display: inline-block;
+	color: #111;
+}
+
+.highlight-dark {
+	background-color: rgba(0,0,0,.5);
+	padding: 20px;
+	display: inline-block;
+	color: #fff;
+}
+
+.highlight-color {
+	padding: 2px 5px;
+	display: inline-block;
+	color: #fff;
+}
+
+a {
+    color: #666;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.light {
+    font-weight: 400;
+}
+
+
+.navbar-brand {
+  padding-top: 15px;
+  margin-top: 5px;
+  padding-bottom: 0;
+}
+
+.navbar-brand.reduce {
+	margin-top:0;
+  padding-top: 5px;
+	padding-bottom: 5px;
+ 	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.navbar.navbar-custom {
+	width: inherit;
+	margin: 0 auto;
+	padding-bottom:0;
+	box-shadow: 0 0 3px rgba(0,0,0,0.12);
+	box-shadow: 0 1px 6px rgba(0,0,0,.2); 
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.2); 
+	-moz-box-shadow: 0 1px 6px rgba(0,0,0,.2); 
+	-o-box-shadow: 0 1px 6px rgba(0,0,0,.2); 
+}
+
+.navbar.navbar-custom .navigation {
+	padding-bottom: 15px;
+
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);	
+	
+}
+
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar.navbar-custom.navbar-fixed-top  {
+	background: #fff;
+}
+
+.navbar-custom.top-nav-collapse .nav.navbar-nav {
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar.navbar-custom {
+	padding-top: 0;
+}
+
+.navbar.navbar-custom ul.nav.navbar-nav {
+	margin-top: 15px;
+ 	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.navbar-custom ul.nav li a {
+	font-size: 13px;
+	letter-spacing: 1px;
+    color: #666;
+	text-transform: uppercase;
+	font-weight: 700;
+	background: transparent;
+}
+
+.home-section {
+    padding-top: 150px;
+	display:block;
+    position:relative;
+    z-index:120;
+	background-color: #fff;
+}
+
+
+.home-section.nopadding {
+    padding-top: 0;
+    padding-bottom: 0;
+	display:block;
+    position:relative;
+    z-index:120;
+}
+.home-section.nopadding-bot {
+    padding-bottom: 0;
+}
+.home-section.nopadding-top {
+    padding-top: 0;
+}
+
+.inner-section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+
+.home-section.nopadd-bot {
+    padding-bottom: 0;
+}
+
+
+
+
+
+.intro {
+	width:100%;
+	position:relative;
+}
+
+.intro-content {
+	background: url(../img/dummy/bg1.jpg) no-repeat top center;
+	padding:200px 0 60px;
+}
+.intro-content.intro-nobg {
+	background:#fff;
+	position:relative;
+	margin:0;
+	padding:140px 0 60px;
+}
+
+.intro-content h2 {
+	margin-bottom: 10px;
+}
+
+
+ul.lead-list {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-bottom: 20px;
+}
+
+
+ul.lead-list li {
+	margin: 0 0 20px 0;
+	line-height: 1.6em;
+}
+
+
+
+
+.form-wrapper h3.panel-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form-wrapper h3.panel-title span {
+	font-size: 20px;
+	margin: 0 10px 0 0;
+}
+
+.form-wrapper h3.panel-title small {
+	font-size: 16px;
+	color: #ddd;
+}
+
+form.lead label,form.lead input {
+	font-size: 16px;
+}
+
+.panel-body {
+  background: #fff;
+}
+
+.panel-skin > .panel-heading .badge {
+  background-color: #fff;
+}
+
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* ---- CTA 1  --- */
+.well.well-trans {
+	background-color: rgba(255,255,255,.8);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+	border: none;
+}
+
+
+.box h4 {
+	font-size: 24px;
+}
+
+.box i {
+	margin-bottom: 30px;
+}
+
+
+.circled {
+	border-radius: 50%;
+	display: inline-block;
+	color: #fff;
+	width: 1.6em;
+    height: 1.6em;
+	text-align: center;
+	line-height: 1.6em;
+}
+
+ul.list-group{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-bottom: 20px;
+}
+
+
+ul.list-group li {
+	margin: 0 0 20px 0;
+	line-height: 1.6em;
+}
+
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer {
+	padding: 50px 0 0;
+	
+}
+
+footer .widget {
+	margin-bottom: 30px;
+}
+
+footer .widget h5 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+
+.sub-footer {
+	margin-top: 30px;
+    background-color: #f7f7f7;
+	border-top: 1px solid #ddd;
+	padding: 30px 0 10px;
+}
+
+.sub-footer a{
+	color: #444;
+}
+
+footer .sub-footer  p {
+	font-size: 14px;
+}
+	
+.icon-success {
+	color: #7db53b;
+}	
+
