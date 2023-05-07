@@ -1,383 +1,414 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>DentalClinic</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/hello-section.css" />
-    <link rel="stylesheet" href="css/aboutus-section.css" />
-    <link rel="stylesheet" href="css/services.css" />
-    <link rel="stylesheet" href="css/team-section.css" />
-    <link rel="stylesheet" href="css/feedback.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DentalClinic</title>
 
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg shadow py-3 sticky-top bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo.svg" alt="" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">О нас</a>
-            </li>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/hello-section.css" />
+  <link rel="stylesheet" href="css/aboutus-section.css" />
+  <link rel="stylesheet" href="css/services.css" />
+  <link rel="stylesheet" href="css/team-section.css" />
+  <link rel="stylesheet" href="css/feedback.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+</head>
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Услуги
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#terapevt">Терапевтия</a></li>
-                  <li><a class="dropdown-item" href="#">Хирургия</a></li>
-                  <li><a class="dropdown-item" href="#ortodont">Ортодонтия</a></li>
-                  <li><a class="dropdown-item" href="#">Ортопедия</a></li>
-                  
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg shadow py-3 sticky-top bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.svg" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">О нас</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Услуги
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#terapevt">Терапевтия</a></li>
+              <li><a class="dropdown-item" href="#">Хирургия</a></li>
+              <li><a class="dropdown-item" href="#ortodont">Ортодонтия</a></li>
+              <li><a class="dropdown-item" href="#">Ортопедия</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Специалисты</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Контакты</a>
+          </li>
+        </ul>
+        <a href="#feedback" class="btn btn-brand">Записаться</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hello Slider -->
+  <section id="helloSlider" class="helloSLider carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="text-white">Стоматология DentalClinic</h6>
+              <h1 class="display-1 my-3 fw-bold text-white">
+                Мы заботимся о каждой улыбке!
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item text-centers bg-cover vh-100 slide-2">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="text-white">Стоматология DentalClinic</h6>
+              <h1 class="display-1 my-3 fw-bold text-white">
+                Качественная работа
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </section>
+
+  <!-- About us Slider -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-5">
+          <img alt="image contains information about our company" src="img/aboutus/about.jpg" alt="" />
+        </div>
+        <div class="col-lg-5">
+          <h1>О центре «Дентал Клиник»</h1>
+          <div class="divider my-4"></div>
+          <p>
+            Мы работаем в Казани с 2011 года и предоставляем полный комплекс
+            стоматологических услуг. Наша цель — сделать каждому желающему
+            красивую и здоровую улыбку.
+          </p>
+          <p>
+            С того момента, как пациент переступает порог нашей клиники, его
+            будут сопровождать вежливость, внимание и профессиональные советы
+            персонала.
+          </p>
+          <a href="#" class="btn btn-brand">Наши услуги</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services bg-light">
+    <div class="container">
+      <div class="row services__title">
+        <div class="col-12 intro-text">
+          <h1>Наши услуги</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content">
+      <div>
+        <div class="services-content row gy-4">
+          <div class="col-xl-6 col-md-4 col-sm-6">
+            <div id="terapevt" class="services-item bg-white shadow-on-hover">
+              <img alt="this image contains caries treatment" src="img/services/services_1-300x380.jpg" alt="" />
+              <div class="services-item-content p-4">
+                <h5 class="item-desc mt-1 mb-2">Лечение кариеса</h5>
+                <p>
+                  Используем японские фотокомпозиты Estelite Asteria, Estelite
+                  Sigma Quick.
+                </p>
+                <p>В стоимость включены:</p>
+                <ul>
+                  <li>рентгенодиагностика,</li>
+                  <li>анестезия Ультракаин,</li>
+                  <li>
+                    все процедуры, которые могут понадобиться. Пломба
+                    выглядит, как зуб. Кроме выбора и тщательной прорисовки
+                    формы пломбы, мы окрашиваем её в натуральный оттенок.
+                  </li>
                 </ul>
-              </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#team">Специалисты</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Контакты</a>
-            </li>
-          </ul>
-          <a href="#feedback" class="btn btn-brand">Записаться</a>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Hello Slider -->
-    <section id="helloSlider" class="helloSLider carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item text-center bg-cover vh-100 active slide-1">
-          <div
-            class="container h-100 d-flex align-items-center justify-content-center"
-          >
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <h6 class="text-white">Стоматология DentalClinic</h6>
-                <h1 class="display-1 my-3 fw-bold text-white">
-                  Мы заботимся о каждой улыбке!
-                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-4 col-sm-6">
+            <div class="services-item bg-white shadow-on-hover">
+              <img alt="это изображение содержит текст о лечении пульпита" src="img/services/services_2-300x380.jpg"
+                alt="" />
+              <div class="services-item-content p-4">
+                <h5 class="mt-1 mb-2">Лечение пульпита</h5>
+                <p class="small">
+                  Работаем по международным стандартам качества
+                </p>
+                <ul>
+                  <li>тщательная цифровая диагностика;</li>
+                  <li>обработка корневых каналов машинными инструментами;</li>
+                  <li>дезинфекция корневых каналов;</li>
+                  <li>3D-пломбировка каналов;</li>
+                  <li>контрольный осмотр через 6 месяцев после лечения.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-4 col-sm-6">
+            <div class="services-item bg-white shadow-on-hover">
+              <img src="img/services/services_3-300x380.jpg" alt="" />
+              <div class="services-item-content p-4">
+                <h5 class="mt-1 mb-2">Профессиональная чистка зубов</h5>
+                <p class="small">Выполняем комплексный уход за зубами</p>
+                <ul>
+                  <li>очищение от пигментированного налета с помощью немецкой системы KaVoPROPHY flex;</li>
+                  <li>удаление зубного камня ультразвуком;</li>
+                  <li>полировку валиками, щеточками и другими приспособлениями;</li>
+                  <li>реминерализацию &#8212; покрытие зубов специальным фторирующим гелем, защищающим от повышенной
+                    чувствительности.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-4 col-sm-6">
+            <div id="ortodont" class="services-item bg-white shadow-on-hover">
+              <img src="img/services/services_5-300x380.jpg" alt="" />
+              <div class="services-item-content p-4">
+                <h5 class="mt-1 mb-2">Установка брекет-систем</h5>
+                <p>Делаем здоровую и красивую улыбку за 1,5 года.<br />Лечение начинается с первичной консультации,
+                  осмотра снимков, подбора брекет-системы и снятия слепков.<br />Далее в течение 1–1,5 лет идет работа
+                  над выравниванием зубов и исправлением прикуса.<br />С ортодонтом вы будете встречаться 1–2 раза в
+                  месяц для корректировки и активации брекетов. Результат фиксируется несъемным ретейнером, который
+                  крепится за зубами.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-4 col-sm-6">
+            <div class="services-item bg-white shadow-on-hover">
+              <img src="img/services/services_6-300x380.jpg" alt="" />
+              <div class="services-item-content p-4">
+                <h5 class="mt-1 mb-2">Протезирование</h5>
+                <p class="small">
+                  Продлевает жизнь зуба без нерва, который считается мёртвым,
+                  металлокерамическая коронка. Она создает каркас, защищающий
+                  зуб от внешних воздействий, предотвращая его разрушение.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-4 col-sm-6">
+            <div class="services-item bg-white shadow-on-hover">
+              <img src="img/services/services_7-300x380.jpg" alt="" />
+              <div class="services-item-content p-4">
+                <h5 class="mt-1 mb-2">Детская стоматология</h5>
+                <p>Выявляет заболевания зубов и полости рта в самом раннем возрасте.<br />
+                  Разрушаясь, молочный зуб теряет функцию пережёвывания пищи. В нём формируется очаг инфекции, он
+                  вызывает боль и дискомфорт.<br />
+                  При его ранней потере ребёнок получит неправильный прикус.<br />
+                  Мы проводим эффективное лечение, не нанося ребёнку психологической травмы.</p>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="carousel-item text-centers bg-cover vh-100 slide-2">
-          <div
-            class="container h-100 d-flex align-items-center justify-content-center"
-          >
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <h6 class="text-white">Стоматология DentalClinic</h6>
-                <h1 class="display-1 my-3 fw-bold text-white">
-                  Качественная работа
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#heroSlider"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#heroSlider"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </section>
+    </div>
+  </section>
 
-    <!-- About us Slider -->
-    <section class="about" id="about">
-      <div class="container">
+  <!-- Team -->
+  <section class="team " id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h1>Врачи</h1>
+          <p>DentalClinic — это слаженная команда квалифицированных специалистов, увлечённых стоматологией. Наша работа
+            — наша страсть!
+            Мы создаём атмосферу, в которой вы будете чувствовать себя непринужденно и комфортно!</p>
+        </div>
         <div class="row gy-4 align-items-center">
-          <div class="col-lg-5">
-            <img src="img/aboutus/about.jpg" alt="" />
+          <div class="col-md-7 d-none d-md-block">
+            <img src="img/team/doctors__img.png" alt="" />
           </div>
-          <div class="col-lg-5">
-            <h1>О центре «Дентал Клиник»</h1>
+          <div class="col-lg-3">
+            <h3>Команда профессионалов</h3>
             <div class="divider my-4"></div>
             <p>
-              Мы работаем в Казани с 2011 года и предоставляем полный комплекс
-              стоматологических услуг. Наша цель — сделать каждому желающему
-              красивую и здоровую улыбку.
-            </p>
-            <p>
-              С того момента, как пациент переступает порог нашей клиники, его
-              будут сопровождать вежливость, внимание и профессиональные советы
-              персонала.
-            </p>
-            <a href="#" class="btn btn-brand">Наши услуги</a>
+              DentalClinic — это слаженная команда квалифицированных специалистов, увлечённых стоматологией. Наша работа
+              — наша страсть!
+              Мы создаём атмосферу, в которой вы будете чувствовать себя непринужденно и комфортно!</p>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Services -->
-    <section id="services" class="services bg-light">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member px-4 py-5 shadow-on-hover text-center">
+              <img src="img/team/1_icon.png" alt="">
+              <div class="team-member-content">
+                <h4 class="mb-0 mt-4">Быкова Екатерина Ивановна</h4>
+                <p class="mb-0">Главный врач</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member px-4 py-5 shadow-on-hover text-center">
+              <img src="img/team/doctors_1.png" alt="">
+              <div class="team-member-content">
+                <h4 class="mb-0 mt-4">Адгамов Данияр Ильнурович</h4>
+                <p class="mb-0">Стоматолог-хирург</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member px-4 py-5 shadow-on-hover text-center">
+              <img src="img/team/1_icon-1.png" alt="">
+              <div class="team-member-content">
+                <h4 class="mb-0 mt-4">Карасев Андрей Андреевич</h4>
+                <p class="mb-0">врач стоматолог-терапевт</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-member px-4 py-5 shadow-on-hover text-center">
+              <img src="img/team/doctors_2.png" alt="">
+              <div class="team-member-content">
+                <h4 class="mb-0 mt-4">Агзямов Булат Ильсурович</h4>
+                <p class="mb-0">Врач стоматолог-терапевт</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <iframe width="560" height="315" src="page/page.html" frameborder="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feedback -->
+  <section class="feedback" id="feedback">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h2>Оставить заявку</h2>
+          <p>Если у вас еще остались вопросы или вы хотите записаться на первичное обследование к стоматологу,
+            обращайтесь прямо сейчас!</p>
+        </div>
+      </div>
+      <form action="#" class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="row g-3">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" placeholder="Ваше имя">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="tel" class="form-control" placeholder="Телефон">
+            </div>
+            <div class="form-group text-center col-md-12">
+              <a href="#" class="btn btn-brand">Записаться</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-cover" , id="footer">
+    <div class="footer-top">
       <div class="container">
-        <div class="row services__title">
-          <div class="col-12 intro-text">
-            <h1>Наши услуги</h1>
+        <div class="row gy-5">
+          <div class="col-lg-4">
+            <img src="img/logoFooter.svg" class="mb-4" alt="">
+            <div class="col-lg-12">
+              <h6 class="text-white mb-4">Время работы</h6>
+              <p class="mb-1">Понедельник-Пятница: 08:00 - 20:00</p>
+              <p>Суббота: 08:00-17:00</p>
+              <p>Воскресенье: выходной</p>
+            </div>
+          </div>
+          <div class="col-lg-3 ms-auto">
+            <h6 class="text-white mb-4">Контакты</h6>
+            <p class="mb-1">+7 (777) 777-77-77</p>
+            <p class="mb-0">г. Казань, Проспект-Победы, д.141</p>
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.7183878648266!2d49.212217599999995!3d55.7807627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415eadf5597fd059%3A0xbe7e2b6274fbf942!2z0L_RgC3Rgi4g0J_QvtCx0LXQtNGLLCAxNDEsINCa0LDQt9Cw0L3RjCwg0KDQtdGB0L8uINCi0LDRgtCw0YDRgdGC0LDQvSwgNDIwMTAw!5e0!3m2!1sru!2sru!4v1683491060819!5m2!1sru!2sru"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>&copy;
+              <script>document.write(new Date().getFullYear());</script>, <h7 class="text text-white">Dental Clinic.
+              </h7>
+            </div>
+
+            <div>
+
+              <div id="weather">
+                <div id="description"></div>
+                <h1 id="temp"></h1>
+                <div id="location"></div>
+              </div>
+              <script>
+                const key = '4c8f4c53482c4d90da96c9178567e01b';
+                function weatherBallon(cityID) {
+                  fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID + '&appid=' + key)
+                    .then(function (resp) { return resp.json() }) // Convert data to json
+                    .then(function (data) {
+
+                      console.log(data);
+                      drawWeather(data);
+                    })
+                    .catch(function () {
+                      // catch any errors
+                    });
+                }
+                function drawWeather(d) {
+                  var celcius = Math.round(parseFloat(d.main.temp) - 273.15);
+                  var fahrenheit = Math.round(((parseFloat(d.main.temp) - 273.15) * 1.8) + 32);
+                  var description = d.weather[0].description;
+
+                  document.getElementById('description').innerHTML = description;
+                  document.getElementById('temp').innerHTML = celcius + '&deg;';
+                  document.getElementById('location').innerHTML = d.name;
+                }
+                window.onload = function () {
+                  weatherBallon(551487);
+                }
+              </script>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+  </footer>
 
-      <div class="tab-content">
-        <div>
-          <div class="services-content row gy-4">
-            <div class="col-xl-6 col-md-4 col-sm-6">
-              <div  id = "terapevt" class="services-item bg-white shadow-on-hover">
-                <img src="img/services/services_1-300x380.jpg" alt="" />
-                <div class="services-item-content p-4">
-                  <h5 class="item-desc mt-1 mb-2">Лечение кариеса</h5>
-                  <p>
-                    Используем японские фотокомпозиты Estelite Asteria, Estelite
-                    Sigma Quick.
-                  </p>
-                  <p>В стоимость включены:</p>
-                  <ul>
-                    <li>рентгенодиагностика,</li>
-                    <li>анестезия Ультракаин,</li>
-                    <li>
-                      все процедуры, которые могут понадобиться. Пломба
-                      выглядит, как зуб. Кроме выбора и тщательной прорисовки
-                      формы пломбы, мы окрашиваем её в натуральный оттенок.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-md-4 col-sm-6">
-              <div class="services-item bg-white shadow-on-hover">
-                <img src="img/services/services_2-300x380.jpg" alt="" />
-                <div class="services-item-content p-4">
-                  <h5 class="mt-1 mb-2">Лечение пульпита</h5>
-                  <p class="small">
-                    Работаем по международным стандартам качества
-                  </p>
-                  <ul>
-                    <li>тщательная цифровая диагностика;</li>
-                    <li>обработка корневых каналов машинными инструментами;</li>
-                    <li>дезинфекция корневых каналов;</li>
-                    <li>3D-пломбировка каналов;</li>
-                    <li>контрольный осмотр через 6 месяцев после лечения.</li>
-                    </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-md-4 col-sm-6">
-              <div class="services-item bg-white shadow-on-hover">
-                <img src="img/services/services_3-300x380.jpg" alt="" />
-                <div class="services-item-content p-4">
-                  <h5 class="mt-1 mb-2">Профессиональная чистка зубов</h5>
-                  <p class="small">Выполняем комплексный уход за зубами</p>
-                  <ul>
-                    <li>очищение от пигментированного налета с помощью немецкой системы KaVoPROPHY flex;</li>
-                    <li>удаление зубного камня ультразвуком;</li>
-                    <li>полировку валиками, щеточками и другими приспособлениями;</li>
-                    <li>реминерализацию &#8212; покрытие зубов специальным фторирующим гелем, защищающим от повышенной чувствительности.</li>
-                    </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-md-4 col-sm-6">
-              <div id = "ortodont" class="services-item bg-white shadow-on-hover">
-                <img src="img/services/services_5-300x380.jpg" alt="" />
-                <div class="services-item-content p-4">
-                  <h5 class="mt-1 mb-2">Установка брекет-систем</h5>
-                  <p>Делаем здоровую и красивую улыбку за 1,5 года.<br />Лечение начинается с первичной консультации, осмотра снимков, подбора брекет-системы и снятия слепков.<br />Далее в течение 1–1,5 лет идет работа над выравниванием зубов и исправлением прикуса.<br />С ортодонтом вы будете встречаться 1–2 раза в месяц для корректировки и активации брекетов. Результат фиксируется несъемным ретейнером, который крепится за зубами.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-md-4 col-sm-6">
-              <div class="services-item bg-white shadow-on-hover">
-                <img src="img/services/services_6-300x380.jpg" alt="" />
-                <div class="services-item-content p-4">
-                  <h5 class="mt-1 mb-2">Протезирование</h5>
-                  <p class="small">
-                    Продлевает жизнь зуба без нерва, который считается мёртвым,
-                    металлокерамическая коронка. Она создает каркас, защищающий
-                    зуб от внешних воздействий, предотвращая его разрушение.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-md-4 col-sm-6">
-                <div class="services-item bg-white shadow-on-hover">
-                  <img src="img/services/services_7-300x380.jpg" alt="" />
-                  <div class="services-item-content p-4">
-                    <h5 class="mt-1 mb-2">Детская стоматология</h5>
-                    <p>Выявляет заболевания зубов и полости рта в самом раннем возрасте.<br />
-                        Разрушаясь, молочный зуб теряет функцию пережёвывания пищи. В нём формируется очаг инфекции, он вызывает боль и дискомфорт.<br />
-                        При его ранней потере ребёнок получит неправильный прикус.<br />
-                        Мы проводим эффективное лечение, не нанося ребёнку психологической травмы.</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
 
-    <!-- Team -->
-    <section class="team "id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 intro-text">
-                    <h1>Врачи</h1>
-                    <p>DentalClinic — это слаженная команда квалифицированных специалистов, увлечённых стоматологией. Наша работа — наша страсть!
-                        Мы создаём атмосферу, в которой вы будете чувствовать себя непринужденно и комфортно!</p>
-                </div>
-                <div class="row gy-4 align-items-center">
-                    <div class="col-md-7 d-none d-md-block">
-                      <img src="img/team/doctors__img.png" alt="" />
-                    </div>
-                    <div class="col-lg-3">
-                      <h3>Команда профессионалов</h3>
-                      <div class="divider my-4"></div>
-                      <p>
-                        DentalClinic — это слаженная команда квалифицированных специалистов, увлечённых стоматологией. Наша работа — наша страсть!
-                        Мы создаём атмосферу, в которой вы будете чувствовать себя непринужденно и комфортно!</p>
-                    </div>
-                  </div>
-
-            <div class="row gy-4">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member px-4 py-5 shadow-on-hover text-center">
-                        <img src="img/team/1_icon.png" alt="">
-                        <div class="team-member-content">
-                            <h4 class="mb-0 mt-4">Быкова Екатерина Ивановна</h4>
-                            <p class="mb-0">Главный врач</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member px-4 py-5 shadow-on-hover text-center">
-                        <img src="img/team/doctors_1.png" alt="">
-                        <div class="team-member-content">
-                            <h4 class="mb-0 mt-4">Адгамов Данияр Ильнурович</h4>
-                            <p class="mb-0">Стоматолог-хирург</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member px-4 py-5 shadow-on-hover text-center">
-                        <img src="img/team/1_icon-1.png" alt="">
-                        <div class="team-member-content">
-                            <h4 class="mb-0 mt-4">Карасев Андрей Андреевич</h4>
-                            <p class="mb-0">врач стоматолог-терапевт</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="team-member px-4 py-5 shadow-on-hover text-center">
-                        <img src="img/team/doctors_2.png" alt="">
-                        <div class="team-member-content">
-                            <h4 class="mb-0 mt-4">Агзямов Булат Ильсурович</h4>
-                            <p class="mb-0">Врач стоматолог-терапевт</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <iframe width="560" height="315" src="page/page.html" frameborder="0"></iframe>
-        </div>
-        </div>
-    </section>
-
-    <!-- Feedback -->
-    <section class="feedback" id="feedback">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 intro-text">
-                    <h2>Оставить заявку</h2>
-                    <p>Если у вас еще остались вопросы или вы хотите записаться на первичное обследование к стоматологу, 
-                        обращайтесь прямо сейчас!</p>
-                </div>
-            </div>
-            <form action="#" class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="row g-3">
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="Ваше имя">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="tel" class="form-control" placeholder="Телефон">
-                        </div>
-                        <div class="form-group text-center col-md-12">
-                            <a href="#" class="btn btn-brand">Send Message</a>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-cover", id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row gy-5">
-                    <div class="col-lg-4">
-                        <img src="img/logoFooter.svg" class="mb-4" alt="">
-                        <div class="col-lg-12">
-                            <h6 class="text-white mb-4">Время работы</h6>
-                            <p class="mb-1">Понедельник-Пятница: 08:00 - 20:00</p>
-                            <p>Суббота: 08:00-17:00</p>
-                            <p>Воскресенье: выходной</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 ms-auto">
-                        <h6 class="text-white mb-4">Контакты</h6>
-                        <p class="mb-1">+7 (777) 777-77-77</p>
-                        <p class="mb-0">г. Казань, Проспект-Победы, д.141</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
