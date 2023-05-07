@@ -1,0 +1,33 @@
+.post {
+    position: relative;
+    overflow: hidden;
+}
+
+.post .btn {
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 26px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.post img {
+    transition: all 0.4s;
+    height: 300px;
+    width: 300px;
+}
+
+.post:hover img {
+    transform: scale(1.2);
+}
+
+.post:hover .insta-btn {
+    opacity: 1;
+}

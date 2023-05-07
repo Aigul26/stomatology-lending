@@ -1,0 +1,32 @@
+.slide-1 {
+    background: url(../img/hellosection/smile.jpg);
+}
+
+.slide-2 {
+    background:  url(../img/hellosection/stom.jpg);
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+#helloSlider h6::after,
+#helloSlider h6::before {
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0,0,0,0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}

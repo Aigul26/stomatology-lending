@@ -1,0 +1,16 @@
+#feedback .form-control {
+    border-radius: 0;
+}
+
+#feedback .form-control:focus {
+    box-shadow: none;
+    border-color: #2648d0;
+}
+
+#feedback input.form-control {
+    height: 47px;
+}
+
+.feedback{
+    padding-bottom: 30px;
+}

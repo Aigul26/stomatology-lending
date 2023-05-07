@@ -1,0 +1,7 @@
+.navbar img {
+    width: 100%;
+}
+
+.navbar-nav .nav-link.active {
+    color: #3e3d3cc0;
+}
