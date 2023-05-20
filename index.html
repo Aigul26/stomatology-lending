@@ -121,7 +121,7 @@
             будут сопровождать вежливость, внимание и профессиональные советы
             персонала.
           </p>
-          <a href="#" class="btn btn-brand">Наши услуги</a>
+          <a href="#services" class="btn btn-brand">Наши услуги</a>
         </div>
       </div>
     </div>
@@ -375,7 +375,7 @@
               <script>
                 const key = '4c8f4c53482c4d90da96c9178567e01b';
                 function weatherBallon(cityID) {
-                  fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID + '&appid=' + key)
+                  fetch('https://api.openweathermap.org/data/2.5/weather?id=' + cityID + '&appid=' + key + '&lang=ru' )
                     .then(function (resp) { return resp.json() }) // Convert data to json
                     .then(function (data) {
 
